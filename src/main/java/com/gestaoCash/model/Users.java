@@ -107,7 +107,7 @@ public class Users implements Serializable {
 	@Column(columnDefinition = "VARCHAR(50)", unique = true)
 	private String email;
 @Lob
-	@Column(columnDefinition = "longblob")
+	//@Column(columnDefinition = "longblob")
 	private byte[] imagemPerfil;
 
 	@Column(columnDefinition = "CHAR(1)")
