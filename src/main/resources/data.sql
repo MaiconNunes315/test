@@ -1,4 +1,4 @@
-SET NAMES utf8mb4;
+
 
 
 INSERT INTO role (authority) VALUES ('ROLE_COMUM');
