@@ -26,6 +26,7 @@ import jakarta.persistence.ManyToMany;
 import jakarta.persistence.OneToMany;
 import jakarta.persistence.OneToOne;
 import jakarta.persistence.Table;
+import jakarta.persistence.Lob;
 
 @Table
 @Entity(name = "usuarios")
@@ -105,7 +106,7 @@ public class Users implements Serializable {
 
 	@Column(columnDefinition = "VARCHAR(50)", unique = true)
 	private String email;
-
+@Lob
 	@Column(columnDefinition = "longblob")
 	private byte[] imagemPerfil;
 
